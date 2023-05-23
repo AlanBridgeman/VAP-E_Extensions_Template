@@ -1,0 +1,20 @@
+{
+    "name": "<extension name>",
+    "id": "<uniue extension id>",
+    "icon": ["<icon type>", "<icon name>"],
+    "react": ["<first component>.tsx", "<second component>.jsx", ...],
+    "react-callback": {
+        "name": "<callback name>",
+        "args": [
+            "<first argument>",
+            "<second argument>",
+            ...
+        ]
+    },
+    "js": "<js file>",
+    "python": {
+        "file": "<python file>",
+        "class": "<python class>",
+    },
+    "command": "<command/trigger phrase>",
+}
